@@ -11,8 +11,7 @@
     font-family="Arial, sans-serif"
     font-size="80"
     font-weight="bold"
-    fill="#eaa6ffff"
-    stroke="#500069ff"
+    fill="#500069ff"
     stroke-width="1"
   >
     M
@@ -23,8 +22,7 @@
     font-family="Arial, sans-serif"
     font-size="80"
     font-weight= "bold"
-    fill="#ff9bcaff"
-    stroke="#5d002bff"
+    fill="#5d002bff"
     stroke-width="1"
     
   >

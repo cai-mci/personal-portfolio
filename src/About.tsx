@@ -1,7 +1,7 @@
 export function About() {
     return (
         <div className = "about">
-            <img src = "img/caiti.png" />
+            <img src = "me.JPG" />
             <p>About me yayayaya</p>
         </div>
     )

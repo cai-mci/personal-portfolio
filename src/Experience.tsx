@@ -68,7 +68,7 @@ export function Experiences() {
 export function defExperiences() {
     let Student = {
         company: 'Texas A&M',
-        role: " Bachelor of Science in Computer Science",
+        role: "Bachelor of Science in Computer Science",
         date: {
             startDate: "August 2023",
             endDate: "May 2027"
@@ -79,6 +79,18 @@ export function defExperiences() {
         tags: ["Python", "C++"]
     };
 
-    return [Student]
+    let Robomasters = {
+        company: 'Texas Aimbots',
+        role: "Embedded Systems Developer",
+        date: {
+            startDate: "August 2024",
+        },
+        description: "Working on a team of 15 to create and maintain code for 5 robots, including an autonomous one. Refactored 1000+ lines of legacy code into modular components, improving maintainability and debugging efficiency. Set up CANbus communication system to connect with computer vision data.",
+        logo: "robomasters.png", // imagename
+        link: "https://www.texasaimbots.com/",
+        tags: ["C++", "Firmware", "Git",]
+    };
+
+    return [Student, Robomasters]
 }
     
