@@ -1,0 +1,33 @@
+<svg
+  width="120"
+  height="120"
+  viewBox="0 0 120 120"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect width="120" height="120" fill="transparent" />
+  <text
+    x="42"
+    y="100"
+    font-family="Arial, sans-serif"
+    font-size="80"
+    font-weight="bold"
+    fill="#eaa6ffff"
+    stroke="#500069ff"
+    stroke-width="1"
+  >
+    M
+  </text>
+  <text
+    x="13"
+    y="70"
+    font-family="Arial, sans-serif"
+    font-size="80"
+    font-weight= "bold"
+    fill="#ff9bcaff"
+    stroke="#5d002bff"
+    stroke-width="1"
+    
+  >
+    C
+  </text>
+</svg>

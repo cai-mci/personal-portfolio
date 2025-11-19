@@ -12,12 +12,12 @@ export type Experience = {
 };
 
 
-//creates Expereince tiles
+//creates experience tiles
 type ExperienceProps = {
     experience: Experience;
 }
 
-export function Expereince({ experience }: ExperienceProps) {
+export function Experience({ experience }: ExperienceProps) {
     let newDate = experience.date.startDate
     if (experience.date.endDate) {
         newDate += " - " + experience.date.endDate
@@ -26,9 +26,9 @@ export function Expereince({ experience }: ExperienceProps) {
     }
     return <div className = "experienceTile">
         <p className = "role">{experience.role} </p>
-        <a className = "companyClickable"  href= {experience.link} >
+        <a className = "companyClickable"  href= {experience.link} target="_blank" rel="noopener noreferrer" >
             {experience.logo && ( /* show it if it exists */
-                <img className = "companyLogo" src={`img/${experience.logo}`} alt={`${experience.company} logo`} />
+                <img className = "companyLogo" src={`/experience/${experience.logo}`} alt={`${experience.company} logo`} />
             )}
 
             <p className = "company"> {experience.company} </p>
@@ -50,12 +50,12 @@ export function Expereince({ experience }: ExperienceProps) {
 }
 
 //creating projects component
-export function Expereinces() {
-    let myExpereince = defExpereinces()
+export function Experiences() {
+    let myExperience = defExperiences()
     return (
-        <div className = "expereinceContainer">
-            {myExpereince.map((exp, index) => (
-                <Expereince key = {index} experience={exp}></Expereince>
+        <div className = "experienceContainer">
+            {myExperience.map((exp, index) => (
+                <Experience key = {index} experience={exp}></Experience>
             ))}
         </div>
 
@@ -65,7 +65,7 @@ export function Expereinces() {
 
 
 //project definiton
-export function defExpereinces() {
+export function defExperiences() {
     let Student = {
         company: 'Texas A&M',
         role: " Bachelor of Science in Computer Science",

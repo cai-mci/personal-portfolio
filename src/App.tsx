@@ -4,7 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import { Projects } from './Projects'
-import { Expereinces } from './Experience'
+import { Experiences } from './Experience'
+
+
 
 function App() {
 
@@ -13,8 +15,10 @@ function App() {
 
   return (
     <>
-      <Projects />
-      <Expereinces />
+      <div>
+        <Projects />
+        <Experiences />
+      </div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

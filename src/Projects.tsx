@@ -24,7 +24,7 @@ export function Project({ project }: ProjectProps) {
     } 
     return <div className = "projTile">
         {project.thumbnail && ( /* show it if it exists */
-            <img src={`img/${project.thumbnail}`} alt={`${project.projName} thumbnail`}></img>
+            <img src={`/projects/${project.thumbnail}`} alt={`${project.projName} thumbnail`}></img>
         )}
 
         <p className = "projName">{project.projName}</p>
