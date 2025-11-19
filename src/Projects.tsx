@@ -48,9 +48,23 @@ export function Project({ project }: ProjectProps) {
     
 }
 
+//creating projects component
+export function Projects() {
+    let myProjects = defProjects()
+    return (
+        <div className = "projectsContainer">
+            {myProjects.map((project, index) => (
+                <Project key = {index} project={project}></Project>
+            ))}
+        </div>
+
+    )
+}
+
+
 
 //project definiton
-export function projects() {
+export function defProjects() {
     let EcoArchitect = {
         projName: "EcoArchitect",
         date: {

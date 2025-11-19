@@ -3,22 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import { Project } from './Projects'
-import { projects } from './Projects'
+import { Projects } from './Projects'
+import { Expereinces } from './Experience'
 
 function App() {
 
   //project defintions
   const [count, setCount] = useState(0)
-  let myProjects = projects()
-  let myproj = myProjects[0]
+
   return (
     <>
-        <div className="projectsContainer">
-            {myProjects.map((project, index) => (
-                <Project project={project}></Project>
-            ))}
-        </div>
+      <Projects />
+      <Expereinces />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

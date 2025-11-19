@@ -12,6 +12,31 @@
   flex-wrap: wrap;
 }
 
+/* projects and expereince */
+
+.tagsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.tagsContainer p {
+  background: pink;
+  color: rgb(137, 75, 85);
+  border-radius: 20px;
+  padding: 2px 7px;
+  margin: 2px 3px;
+}
+
+.tagsContainer p:hover {
+  padding: 4px 10px;
+  margin: 0px;
+}
+
+/* experience */
+.companyLogo {
+  width: 100px;
+}
 
 
 
