@@ -33,7 +33,7 @@ export function Project({ project }: ProjectProps) {
         <p className = "description">{project.description}</p>
 
         {project.link && ( /* show it if it exists */
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <a className = "projLink" href={project.link} target="_blank" rel="noopener noreferrer">
                 Check it out here!
             </a>
         )}

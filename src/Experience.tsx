@@ -53,7 +53,7 @@ export function Experience({ experience }: ExperienceProps) {
 export function Experiences() {
     let myExperience = defExperiences()
     return (
-        <div className = "experienceContainer">
+        <div className = "experiencesContainer">
             {myExperience.map((exp, index) => (
                 <Experience key = {index} experience={exp}></Experience>
             ))}
@@ -91,7 +91,19 @@ export function defExperiences() {
         link: "https://www.texasaimbots.com/",
         tags: ["C++", "Firmware", "Git",]
     };
+    let Robomasters2 = {
+        company: 'Texas Aimbots',
+        role: "Embedded Systems Developer",
+        date: {
+            startDate: "August 2024",
+        },
+        description: "Working on a team of 15 to create and maintain code for 5 robots, including an autonomous one. Refactored 1000+ lines of legacy code into modular components, improving maintainability and debugging efficiency. Set up CANbus communication system to connect with computer vision data.",
+        logo: "robomasters.png", // imagename
+        link: "https://www.texasaimbots.com/",
+        tags: ["C++", "Firmware", "Git",]
+    };
 
-    return [Student, Robomasters]
+
+    return [Student, Robomasters, Robomasters2]
 }
     
