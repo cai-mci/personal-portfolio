@@ -69,15 +69,15 @@ export function Experiences() {
 export function defExperiences() {
     let Student = {
         company: 'Texas A&M',
-        role: "Bachelor of Science in Computer Science",
+        role: "Bachelor of Science in Computer Science, Minor in AI in Business",
         date: {
             startDate: "August 2023",
             endDate: "May 2027"
         },
-        description: "learned",
+        description: "Relevant Coursework: Data Structures & Algorithms, Discrete Structures, Design & Analysis of Algorithms, Software Engineering, Computer Systems",
         logo: "tamu.png", // imagename
         link: "https://www.tamu.edu/about/index.html",
-        tags: ["Python", "C++"]
+        tags: ["Python", "C++", "Teamwork"]
     };
 
     let Robomasters = {
@@ -87,23 +87,11 @@ export function defExperiences() {
             startDate: "August 2024",
         },
         description: "Working on a team of 15 to create and maintain code for 5 robots, including an autonomous one. Refactored 1000+ lines of legacy code into modular components, improving maintainability and debugging efficiency. Set up CANbus communication system to connect with computer vision data.",
-        logo: "robomasters.png", // imagename
-        link: "https://www.texasaimbots.com/",
-        tags: ["C++", "Firmware", "Git",]
-    };
-    let Robomasters2 = {
-        company: 'Texas Aimbots',
-        role: "Embedded Systems Developer",
-        date: {
-            startDate: "August 2024",
-        },
-        description: "Working on a team of 15 to create and maintain code for 5 robots, including an autonomous one. Refactored 1000+ lines of legacy code into modular components, improving maintainability and debugging efficiency. Set up CANbus communication system to connect with computer vision data.",
-        logo: "robomasters.png", // imagename
+        logo: "robomasters.jpg", // imagename
         link: "https://www.texasaimbots.com/",
         tags: ["C++", "Firmware", "Git",]
     };
 
-
-    return [Student, Robomasters, Robomasters2]
+    return [Student, Robomasters]
 }
     
