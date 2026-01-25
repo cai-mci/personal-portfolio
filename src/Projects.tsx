@@ -79,6 +79,20 @@ export function defProjects() {
         link: "https://project3-gang-04-deployment.onrender.com/",
         tags: ['Java', 'JavaFX', 'PostgreSQL', 'Drizzle', 'Git', 'OAuth API', 'Node.js','Express.js', 'Javascript', 'CSS/Html']
     };
+
+    let CarryOn = {
+        projName: "AI Packing Assistant (CarryOn)",
+        date: {
+            projStartDate: "Jan 2026"
+        },
+        description: `Designed and created a full stack website to take the guesswork out of packing.
+Migrated logic from LLM-based prompts to deterministic algorithms, reducing latency and token costs. 
+        `,
+        thumbnail: "carryon.png", // imagename
+        link: "https://carryon-zeta.vercel.app/",
+        tags: ['Supabase', 'PostgreSQL', 'React', 'Typescript','Tailwind CSS']
+    };
+
     let Urgent = {
         projName: "Animal Shelter Website",
         date: {
@@ -112,6 +126,6 @@ export function defProjects() {
         tags: ['Python', 'Django', 'PyPDF', 'PyMuPDF', 'Gemini API', 'Hugging Face Transformer']
     };
 
-    return [Boba, Urgent, EcoArchitect, RedFlag]
+    return [Boba, CarryOn, Urgent, EcoArchitect, RedFlag]
 }
     
